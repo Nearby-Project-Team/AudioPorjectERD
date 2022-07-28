@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -145,
-    "scrollLeft": -482,
+    "scrollTop": -223,
+    "scrollLeft": -262,
     "zoomLevel": 0.9,
     "show": {
       "tableComment": true,
@@ -281,7 +281,7 @@
           "active": false,
           "left": 216.9996,
           "top": 150.3327,
-          "zIndex": 6,
+          "zIndex": 35,
           "widthName": 60,
           "widthComment": 110.53680419921875
         },
@@ -362,6 +362,75 @@
             "id": "1a428291-20f7-4d6a-9c47-8543f454f84f"
           },
           {
+            "name": "phone_number",
+            "comment": "",
+            "dataType": "VARCHAR(100)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 83.21090698242188,
+              "widthComment": 60,
+              "widthDataType": 85.22587585449219,
+              "widthDefault": 60
+            },
+            "id": "425fc3e5-cad0-492e-be47-8e633035b065"
+          },
+          {
+            "name": "birthday",
+            "comment": "",
+            "dataType": "DATETIME",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "bfcbeba2-a7db-41d3-a5fd-190da48fd79b"
+          },
+          {
+            "name": "agreement",
+            "comment": "",
+            "dataType": "VARCHAR(5)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60.60392761230469,
+              "widthComment": 60,
+              "widthDataType": 70.69190979003906,
+              "widthDefault": 60
+            },
+            "id": "25be5b7f-91b6-4d0d-9b9b-40146c29222a"
+          },
+          {
             "name": "createdAt",
             "comment": "",
             "dataType": "DATETIME",
@@ -433,9 +502,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 985.3343,
-          "top": 284.4443,
-          "zIndex": 3,
+          "left": 988.6676,
+          "top": 281.111,
+          "zIndex": 43,
           "widthName": 60,
           "widthComment": 96.4708251953125
         },
@@ -849,9 +918,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 1316.2223,
-          "top": 689.2221,
-          "zIndex": 4,
+          "left": 1336.2222,
+          "top": 691.4443,
+          "zIndex": 44,
           "widthName": 60,
           "widthComment": 105.05078125
         },
@@ -1003,9 +1072,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 1589.583,
-          "top": 280.7774,
-          "zIndex": 2,
+          "left": 1590.6941,
+          "top": 310.7771,
+          "zIndex": 46,
           "widthName": 60,
           "widthComment": 106.38978576660156
         },
@@ -1300,8 +1369,8 @@
           "columnIds": [
             "97b93545-5680-450d-87c4-098b31d719de"
           ],
-          "x": 985.3343,
-          "y": 380.4443,
+          "x": 988.6676,
+          "y": 407.861,
           "direction": "left"
         },
         "constraintName": "fk_caregiver_to_elderly",
@@ -1369,8 +1438,8 @@
           "columnIds": [
             "686cf259-6a11-4284-9306-e0af632736b9"
           ],
-          "x": 1264.5037068908691,
-          "y": 476.4443,
+          "x": 1285.2451871276855,
+          "y": 534.611,
           "direction": "bottom"
         },
         "end": {
@@ -1378,8 +1447,8 @@
           "columnIds": [
             "44b4f95b-7d29-41f4-b76a-14b881fd3613"
           ],
-          "x": 1316.2223,
-          "y": 774.9721,
+          "x": 1336.2222,
+          "y": 777.1943,
           "direction": "left"
         },
         "constraintName": "fk_elderly_to_chatting",
@@ -1395,8 +1464,8 @@
           "columnIds": [
             "686cf259-6a11-4284-9306-e0af632736b9"
           ],
-          "x": 1357.5601758544922,
-          "y": 380.4443,
+          "x": 1384.104382836914,
+          "y": 407.861,
           "direction": "right"
         },
         "end": {
@@ -1404,8 +1473,8 @@
           "columnIds": [
             "8bd07e6d-d813-4e31-9ff4-b690268a7460"
           ],
-          "x": 1589.583,
-          "y": 376.7774,
+          "x": 1590.6941,
+          "y": 406.7771,
           "direction": "left"
         },
         "constraintName": "fk_elderly_to_calandar",
@@ -1473,8 +1542,8 @@
           "columnIds": [
             "686cf259-6a11-4284-9306-e0af632736b9"
           ],
-          "x": 1078.390768963623,
-          "y": 476.4443,
+          "x": 1087.5267957092285,
+          "y": 534.611,
           "direction": "bottom"
         },
         "end": {
