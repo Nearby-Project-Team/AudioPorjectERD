@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -83,
-    "scrollLeft": 0,
+    "scrollTop": 0,
+    "scrollLeft": -196,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -281,7 +281,7 @@
           "active": false,
           "left": 205.9996,
           "top": 147.3327,
-          "zIndex": 20,
+          "zIndex": 65,
           "widthName": 60,
           "widthComment": 110.53680419921875
         },
@@ -324,7 +324,7 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": true
+              "notNull": false
             },
             "ui": {
               "active": false,
@@ -360,6 +360,75 @@
               "widthDefault": 60
             },
             "id": "1a428291-20f7-4d6a-9c47-8543f454f84f"
+          },
+          {
+            "name": "birthday",
+            "comment": "",
+            "dataType": "DATETIME",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "70475857-7b77-4b56-aaec-5ed1e29326fe"
+          },
+          {
+            "name": "phone_number",
+            "comment": "",
+            "dataType": "VARCHAR(100)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 83.21090698242188,
+              "widthComment": 60,
+              "widthDataType": 85.22587585449219,
+              "widthDefault": 60
+            },
+            "id": "c4b96050-c9c2-4b53-abad-4d4a36530372"
+          },
+          {
+            "name": "agreement",
+            "comment": "",
+            "dataType": "VARCHAR(5)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60.60392761230469,
+              "widthComment": 60,
+              "widthDataType": 70.69190979003906,
+              "widthDefault": 60
+            },
+            "id": "3ddf57b0-c836-4398-9de8-dd9fa0930a3c"
           },
           {
             "name": "createdAt",
@@ -433,9 +502,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 799.3343,
-          "top": 386.4443,
-          "zIndex": 6,
+          "left": 795.3343,
+          "top": 368.4443,
+          "zIndex": 75,
           "widthName": 60,
           "widthComment": 96.4708251953125
         },
@@ -826,9 +895,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 811.2223,
-          "top": 715.2221,
-          "zIndex": 1,
+          "left": 816.2223,
+          "top": 734.2221,
+          "zIndex": 56,
           "widthName": 60,
           "widthComment": 105.05078125
         },
@@ -980,9 +1049,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 1323.583,
-          "top": 386.7774,
-          "zIndex": 3,
+          "left": 1334.583,
+          "top": 398.7774,
+          "zIndex": 76,
           "widthName": 60,
           "widthComment": 106.38978576660156
         },
@@ -1110,10 +1179,10 @@
           }
         ],
         "ui": {
-          "active": false,
-          "left": 806,
-          "top": 148.25,
-          "zIndex": 2,
+          "active": true,
+          "left": 815,
+          "top": 128.25,
+          "zIndex": 78,
           "widthName": 109.26280212402344,
           "widthComment": 120
         },
@@ -1131,7 +1200,7 @@
       {
         "identification": false,
         "relationshipType": "OneN",
-        "startRelationshipType": "Dash",
+        "startRelationshipType": "Ring",
         "start": {
           "tableId": "9b10d4c6-9182-40f9-97c4-af2def25ba76",
           "columnIds": [
@@ -1146,8 +1215,8 @@
           "columnIds": [
             "97b93545-5680-450d-87c4-098b31d719de"
           ],
-          "x": 799.3343,
-          "y": 434.4443,
+          "x": 795.3343,
+          "y": 431.8193,
           "direction": "left"
         },
         "constraintName": "fk_caregiver_to_elderly",
@@ -1215,8 +1284,8 @@
           "columnIds": [
             "686cf259-6a11-4284-9306-e0af632736b9"
           ],
-          "x": 985.4472379272461,
-          "y": 578.4443,
+          "x": 993.052691418457,
+          "y": 621.9443,
           "direction": "bottom"
         },
         "end": {
@@ -1224,8 +1293,8 @@
           "columnIds": [
             "44b4f95b-7d29-41f4-b76a-14b881fd3613"
           ],
-          "x": 986.8897575805664,
-          "y": 715.2221,
+          "x": 991.8897575805664,
+          "y": 734.2221,
           "direction": "top"
         },
         "constraintName": "fk_elderly_to_chatting",
@@ -1241,8 +1310,8 @@
           "columnIds": [
             "686cf259-6a11-4284-9306-e0af632736b9"
           ],
-          "x": 1171.5601758544922,
-          "y": 482.4443,
+          "x": 1190.771082836914,
+          "y": 495.1943,
           "direction": "right"
         },
         "end": {
@@ -1250,8 +1319,8 @@
           "columnIds": [
             "8bd07e6d-d813-4e31-9ff4-b690268a7460"
           ],
-          "x": 1323.583,
-          "y": 482.7774,
+          "x": 1334.583,
+          "y": 494.7774,
           "direction": "left"
         },
         "constraintName": "fk_elderly_to_calandar",
@@ -1276,8 +1345,8 @@
           "columnIds": [
             "82e89ce4-d52d-46ff-9e8c-a6214611f390"
           ],
-          "x": 806,
-          "y": 234,
+          "x": 815,
+          "y": 214,
           "direction": "left"
         },
         "constraintName": "fk_caregiver_to_userverificationlog",
@@ -1293,8 +1362,8 @@
           "columnIds": [
             "686cf259-6a11-4284-9306-e0af632736b9"
           ],
-          "x": 799.3343,
-          "y": 530.4443,
+          "x": 795.3343,
+          "y": 558.5693,
           "direction": "left"
         },
         "end": {
