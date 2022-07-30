@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -223,
-    "scrollLeft": -262,
-    "zoomLevel": 0.9,
+    "scrollTop": -74,
+    "scrollLeft": -244,
+    "zoomLevel": 1,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -281,7 +281,7 @@
           "active": false,
           "left": 216.9996,
           "top": 150.3327,
-          "zIndex": 35,
+          "zIndex": 52,
           "widthName": 60,
           "widthComment": 110.53680419921875
         },
@@ -431,6 +431,29 @@
             "id": "25be5b7f-91b6-4d0d-9b9b-40146c29222a"
           },
           {
+            "name": "token",
+            "comment": "",
+            "dataType": "VARCHAR(5)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 70.69190979003906,
+              "widthDefault": 60
+            },
+            "id": "2cd7f204-9b22-4d5b-82c2-0e1882fa22cf"
+          },
+          {
             "name": "createdAt",
             "comment": "",
             "dataType": "DATETIME",
@@ -501,10 +524,10 @@
           }
         ],
         "ui": {
-          "active": false,
+          "active": true,
           "left": 988.6676,
           "top": 281.111,
-          "zIndex": 43,
+          "zIndex": 55,
           "widthName": 60,
           "widthComment": 96.4708251953125
         },
@@ -1370,7 +1393,7 @@
             "97b93545-5680-450d-87c4-098b31d719de"
           ],
           "x": 988.6676,
-          "y": 407.861,
+          "y": 418.111,
           "direction": "left"
         },
         "constraintName": "fk_caregiver_to_elderly",
@@ -1439,7 +1462,7 @@
             "686cf259-6a11-4284-9306-e0af632736b9"
           ],
           "x": 1285.2451871276855,
-          "y": 534.611,
+          "y": 555.111,
           "direction": "bottom"
         },
         "end": {
@@ -1465,7 +1488,7 @@
             "686cf259-6a11-4284-9306-e0af632736b9"
           ],
           "x": 1384.104382836914,
-          "y": 407.861,
+          "y": 418.111,
           "direction": "right"
         },
         "end": {
@@ -1543,7 +1566,7 @@
             "686cf259-6a11-4284-9306-e0af632736b9"
           ],
           "x": 1087.5267957092285,
-          "y": 534.611,
+          "y": 555.111,
           "direction": "bottom"
         },
         "end": {
