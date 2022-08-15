@@ -4,7 +4,7 @@
     "width": 2000,
     "height": 2000,
     "scrollTop": 0,
-    "scrollLeft": -1,
+    "scrollLeft": 0,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -53,13 +53,13 @@
             "default": "",
             "option": {
               "autoIncrement": false,
-              "primaryKey": false,
+              "primaryKey": true,
               "unique": false,
               "notNull": true
             },
             "ui": {
               "active": false,
-              "pk": false,
+              "pk": true,
               "fk": false,
               "pfk": false,
               "widthName": 60,
@@ -97,7 +97,7 @@
           "active": false,
           "left": 125,
           "top": 131,
-          "zIndex": 57,
+          "zIndex": 68,
           "widthName": 60,
           "widthComment": 60
         },
@@ -115,13 +115,13 @@
             "default": "",
             "option": {
               "autoIncrement": false,
-              "primaryKey": false,
+              "primaryKey": true,
               "unique": false,
               "notNull": true
             },
             "ui": {
               "active": false,
-              "pk": false,
+              "pk": true,
               "fk": false,
               "pfk": false,
               "widthName": 60,
@@ -159,12 +159,74 @@
           "active": false,
           "left": 124,
           "top": 294,
-          "zIndex": 59,
+          "zIndex": 80,
           "widthName": 60,
           "widthComment": 60
         },
         "visible": true,
         "id": "70fb8645-fa21-4545-bc4a-ebf363a9f451"
+      },
+      {
+        "name": "Alarm",
+        "comment": "",
+        "columns": [
+          {
+            "name": "uuid",
+            "comment": "",
+            "dataType": "BINARY(16)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 64.33491516113281,
+              "widthDefault": 60
+            },
+            "id": "2204b1a2-454f-402b-b5f9-c5c3fee46273"
+          },
+          {
+            "name": "alarm",
+            "comment": "",
+            "dataType": "LONGTEXT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 63.11293029785156,
+              "widthDefault": 60
+            },
+            "id": "2aff54be-3265-47f3-9bf6-9b79032e05e0"
+          }
+        ],
+        "ui": {
+          "active": true,
+          "left": 124,
+          "top": 443,
+          "zIndex": 97,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "80bfd38b-c6f2-44e4-bf51-6d521599be93"
       }
     ],
     "indexes": []
