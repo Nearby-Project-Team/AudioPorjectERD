@@ -1,0 +1,178 @@
+{
+  "canvas": {
+    "version": "2.2.11",
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": 0,
+    "scrollLeft": -1,
+    "zoomLevel": 1,
+    "show": {
+      "tableComment": true,
+      "columnComment": true,
+      "columnDataType": true,
+      "columnDefault": true,
+      "columnAutoIncrement": false,
+      "columnPrimaryKey": true,
+      "columnUnique": false,
+      "columnNotNull": true,
+      "relationship": true
+    },
+    "database": "MySQL",
+    "databaseName": "chatbot",
+    "canvasType": "ERD",
+    "language": "GraphQL",
+    "tableCase": "pascalCase",
+    "columnCase": "camelCase",
+    "highlightTheme": "VS2015",
+    "bracketType": "none",
+    "setting": {
+      "relationshipDataTypeSync": true,
+      "relationshipOptimization": false,
+      "columnOrder": [
+        "columnName",
+        "columnDataType",
+        "columnNotNull",
+        "columnUnique",
+        "columnAutoIncrement",
+        "columnDefault",
+        "columnComment"
+      ]
+    },
+    "pluginSerializationMap": {}
+  },
+  "table": {
+    "tables": [
+      {
+        "name": "Joke",
+        "comment": "",
+        "columns": [
+          {
+            "name": "uuid",
+            "comment": "",
+            "dataType": "BINARY(16)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 64.33491516113281,
+              "widthDefault": 60
+            },
+            "id": "c428b14c-4d37-4c4a-97cc-0f78c911e0f5"
+          },
+          {
+            "name": "joke",
+            "comment": "",
+            "dataType": "LONGTEXT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 63.11293029785156,
+              "widthDefault": 60
+            },
+            "id": "12bfa08c-7fe3-44d9-87ab-bc4188d398b2"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 125,
+          "top": 131,
+          "zIndex": 57,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "d9e3d722-fe8d-4f29-9083-1cde4b653a37"
+      },
+      {
+        "name": "Fortune",
+        "comment": "",
+        "columns": [
+          {
+            "name": "uuid",
+            "comment": "",
+            "dataType": "BINARY(16)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 64.33491516113281,
+              "widthDefault": 60
+            },
+            "id": "78a5c284-0115-45f6-8adc-d28d11fc2bde"
+          },
+          {
+            "name": "fortune",
+            "comment": "",
+            "dataType": "LONGTEXT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 63.11293029785156,
+              "widthDefault": 60
+            },
+            "id": "db281a17-27e7-4d67-874d-9be592116eba"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 124,
+          "top": 294,
+          "zIndex": 59,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "70fb8645-fa21-4545-bc4a-ebf363a9f451"
+      }
+    ],
+    "indexes": []
+  },
+  "memo": {
+    "memos": []
+  },
+  "relationship": {
+    "relationships": []
+  }
+}
