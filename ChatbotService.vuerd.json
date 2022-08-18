@@ -215,13 +215,36 @@
               "widthDefault": 60
             },
             "id": "2aff54be-3265-47f3-9bf6-9b79032e05e0"
+          },
+          {
+            "name": "alarm_type",
+            "comment": "",
+            "dataType": "TEXT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60.92890930175781,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "c0ff7f05-b837-498e-a28a-7db1659e7b7e"
           }
         ],
         "ui": {
           "active": true,
           "left": 124,
-          "top": 443,
-          "zIndex": 97,
+          "top": 442,
+          "zIndex": 121,
           "widthName": 60,
           "widthComment": 60
         },
