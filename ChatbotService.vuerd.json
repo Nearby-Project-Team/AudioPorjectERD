@@ -241,10 +241,10 @@
           }
         ],
         "ui": {
-          "active": true,
+          "active": false,
           "left": 124,
           "top": 442,
-          "zIndex": 121,
+          "zIndex": 123,
           "widthName": 60,
           "widthComment": 60
         },

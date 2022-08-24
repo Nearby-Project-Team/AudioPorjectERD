@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -623,
-    "scrollLeft": -687.5,
+    "scrollTop": -508,
+    "scrollLeft": -767,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -562,6 +562,29 @@
             "id": "333b8452-0e67-409d-aaee-1f9c7ce223ce"
           },
           {
+            "name": "name",
+            "comment": "",
+            "dataType": "VARCHAR(255)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 84.10789489746094,
+              "widthDefault": 60
+            },
+            "id": "e8c504e4-d6a8-4d6b-955a-0346f09cd6c5"
+          },
+          {
             "name": "path",
             "comment": "S3 Object Storage Path",
             "dataType": "TEXT",
@@ -633,9 +656,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 99.8887,
-          "top": 620.6101,
-          "zIndex": 117,
+          "left": 95.8887,
+          "top": 619.6101,
+          "zIndex": 136,
           "widthName": 65.86891174316406,
           "widthComment": 116.11381530761719
         },
@@ -928,8 +951,8 @@
         "id": "cb6c9699-683d-48ad-a822-8ea108af1bc0"
       },
       {
-        "name": "Calandar",
-        "comment": "Calandar Info Table",
+        "name": "Calendar",
+        "comment": "Calendar Info Table",
         "columns": [
           {
             "name": "uuid",
@@ -1072,11 +1095,11 @@
         ],
         "ui": {
           "active": false,
-          "left": 1571.0154,
+          "left": 1548.0154,
           "top": 321.7771,
-          "zIndex": 8,
+          "zIndex": 167,
           "widthName": 60,
-          "widthComment": 106.38978576660156
+          "widthComment": 106.75379943847656
         },
         "visible": true,
         "id": "3b0eb180-e85b-4202-aea7-ca357eb9455b"
@@ -1334,9 +1357,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 669,
-          "top": 621,
-          "zIndex": 69,
+          "left": 667,
+          "top": 582,
+          "zIndex": 138,
           "widthName": 110.38082885742188,
           "widthComment": 60
         },
@@ -1490,7 +1513,7 @@
           "active": false,
           "left": 825.7227,
           "top": 904.8891,
-          "zIndex": 123,
+          "zIndex": 170,
           "widthName": 77.63388061523438,
           "widthComment": 60
         },
@@ -1572,7 +1595,7 @@
           }
         ],
         "ui": {
-          "active": true,
+          "active": false,
           "left": 1419.9451,
           "top": 934.8897,
           "zIndex": 124,
@@ -1634,8 +1657,8 @@
           "columnIds": [
             "333b8452-0e67-409d-aaee-1f9c7ce223ce"
           ],
-          "x": 315.0620932495117,
-          "y": 620.6101,
+          "x": 314.59809636230466,
+          "y": 619.6101,
           "direction": "top"
         },
         "constraintName": "fk_caregiver_to_voicemodel",
@@ -1712,7 +1735,7 @@
           "columnIds": [
             "8bd07e6d-d813-4e31-9ff4-b690268a7460"
           ],
-          "x": 1571.0154,
+          "x": 1548.0154,
           "y": 417.7771,
           "direction": "left"
         },
@@ -1755,8 +1778,8 @@
           "columnIds": [
             "4c225399-9723-40fe-b7d4-6d9b451cfdfb"
           ],
-          "x": 530.2354864990234,
-          "y": 663.4851,
+          "x": 533.3074927246093,
+          "y": 667.6101,
           "direction": "right"
         },
         "end": {
@@ -1764,8 +1787,8 @@
           "columnIds": [
             "44b7d2a9-98ff-4bfa-a2eb-6fcbf1ac7796"
           ],
-          "x": 669,
-          "y": 706.75,
+          "x": 667,
+          "y": 667.75,
           "direction": "left"
         },
         "constraintName": "fk_voicemodel_to_voicemodelrelation",
@@ -1790,8 +1813,8 @@
           "columnIds": [
             "d15de1e4-ee0c-46cf-aea6-92413fb1d63a"
           ],
-          "x": 1039.2038116455078,
-          "y": 706.75,
+          "x": 1037.2038116455078,
+          "y": 667.75,
           "direction": "right"
         },
         "constraintName": "fk_elderly_to_voicemodelrelation",
@@ -1833,8 +1856,8 @@
           "columnIds": [
             "4c225399-9723-40fe-b7d4-6d9b451cfdfb"
           ],
-          "x": 530.2354864990234,
-          "y": 749.2351,
+          "x": 533.3074927246093,
+          "y": 763.6101,
           "direction": "right"
         },
         "end": {
